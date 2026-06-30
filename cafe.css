@@ -1,5 +1,6 @@
 body{
-    margin:0;
+    margin:0 ;
+    padding: 0 ;
     font-family:Arial, sans-serif;
     background-color:#f8f5f2;
     color:#333;
@@ -14,7 +15,7 @@ body{
 
     align-items:center;
     height: 8vh;
-
+    
     /* padding:15px 40px; */
 
 }
@@ -41,31 +42,7 @@ body{
     color:#f3f8f8;
     margin-left:243px
 }
-.menu-links{
-    background-color:#8b5e3c;
-    text-align:center;
-    padding:15px;
-}
 
-.menu-links a{
-
-    text-decoration:none;
-
-    color:white;
-
-    margin-left:25px;
-
-    font-size:18px;
-
-    font-weight:bold;
-
-}
-
-.menu-links a:hover{
-
-    color:rgba(175, 163, 159, 0.856);
-
-}
 
 
 .carousel-item img{
@@ -319,4 +296,7 @@ footer{
 
     background-color:#4d3524;
 
+}
+.row{
+    justify-content:space-evenly;
 }
